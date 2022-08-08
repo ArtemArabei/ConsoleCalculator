@@ -6,7 +6,7 @@ class Calculator {
 
     fun rpnToAnswer(rpn: String): Double? {
         try {
-            var operand = String()
+            var operand = ""
             val stack: Stack<Double> = Stack()
             var i = 0
             while (i < rpn.length) {
